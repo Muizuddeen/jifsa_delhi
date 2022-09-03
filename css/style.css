@@ -485,7 +485,7 @@ text-align: center;}
 }
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(https://img.freepik.com/free-photo/people-safety-equipment-work_23-2148976323.jpg?w=740&t=st=1662187014~exp=1662187614~hmac=3e387a166330117cdbcb20de7e85c500b8ff80c8a5a864fde77db4b901ffeead), #082032;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
