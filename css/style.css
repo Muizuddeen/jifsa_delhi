@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
-
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
 thead tr th {
 font-weight: old;
 font-size: 1.1rem;
@@ -12,10 +15,7 @@ text-transform: cabpitalize;
     width: 10px;
     height:20px;
 }
-/* .img-fluid {
-    max-width: 100%;
-    height: auto;
-} */
+
 img{
 
     display: inline-block;
@@ -65,8 +65,8 @@ a:hover {
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .text-brand {
@@ -79,92 +79,7 @@ nav .navbar-nav li a{
 font-style: normal;
   flex-wrap: nowrap;
 }
-.hero-slider .owl-prev,
-.hero-slider .owl-next{
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    width: 60px !important;
-    height: 60px !important;
-    display: block;
-    display: grid;
-    place-items: center;
-    color: #fff !important;
-    border-radius: 100px;
-    line-height: 0;
-    border-radius: 100px !important;
-    position: absolute;
-    top: 50%;
-    font-weight: 600 !important;
-    font-size: 12px !important;
-    transition: all 0.4s ease;
-    margin-top: -30px !important;
-}
-
-.owl-prev {
-    left: 0;
-}
-.owl-next {
-    right: 0;
-}
-
-.hero-slider .owl-prev:hover,
-.hero-slider .owl-next:hover {
-    background-color: var(--brand) !important;
-}
-
-.owl-dot.active span{
-    background-color: var(--brand) !important;
-}
-@media only screen and (max-width:600px) {
-.slide{
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jifsacar1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width:5rem;
-    height:4rem;
-}
-}
-
- /* slide */
- .slide {
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-}
-
-.slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jifsacar1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jifsacar2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.slide3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://jifsa.in/assets/images/main-slider/bb11.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide .display-3 {
-    text-transform: uppercase;
-    color: #fff;
-}
+/* 
 
 /* navbar */
 .top-nav {
